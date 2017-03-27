@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  height: 100vh;
+  grid: 3fr 14fr / 4fr 2fr;
+  grid-gap: 20px;
+}
+
+.grid-item {
+  background-color: crimson;
+}
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ex2</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    .container {
+      display: grid;
+      grid-gap: 20px;
+      height: 100vh;
+      grid-template-columns: 100px 200px auto auto;
+    }
+
+    .grid-item {
+      background-color: skyblue;
+    }
+
+    .grid-item:nth-of-type(2) {
+      grid-row-start: span 2;
+    }
+
+    .grid-item:nth-of-type(6) {
+      grid-column: 3 / span 2;
+     /*shortened from
+      grid-column-start: 3;
+      grid-column-end: 5; *//* span 2 would also work*/
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+  </div>
+</body>
+</html>

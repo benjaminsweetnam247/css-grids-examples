@@ -1,0 +1,1 @@
+*{margin:0;padding:0}.container{display:-ms-grid;display:grid;grid-gap:20px;height:100vh;-ms-grid-rows:4fr 6fr;grid-template-rows:4fr 6fr;grid-auto-rows:1fr 12fr;-ms-grid-columns:(minmax(300px,auto))[auto-fill];grid-template-columns:repeat(auto-fill,minmax(300px,auto))}.grid-item{background-color:#ffe4e1;font-size:30px}

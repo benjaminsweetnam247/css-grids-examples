@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ex7</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: grid;
+      grid-gap: 30px;
+      height: 100vh;
+      grid-template-columns:
+      minmax(min-content, 1fr)
+      minmax(max-content, 4fr);
+    }
+
+    .box {
+      background-color: mediumpurple;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box a">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur odit quisquam, illum est vitae qui fuga debitis laudantium expedita, quam omnis ipsa libero laborum officia necessitatibus quibusdam. Modi, rerum, dolorem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dignissimos ut fuga vitae magnam assumenda aperiam nostrum eum labore, deserunt provident dolorem, quis. Porro, commodi excepturi odio incidunt est neque.</div>
+    <div class="box b">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem consectetur ex id quasi rerum suscipit deleniti, unde adipisci dicta ducimus vel a quisquam eveniet fugit, velit ipsa saepe sunt ipsum?</div>
+  </div>
+</body>
+</html>

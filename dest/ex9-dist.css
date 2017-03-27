@@ -1,0 +1,7 @@
+*{padding:0;margin:0}.container{display:-ms-grid;display:grid;grid-gap:10px;height:100vh;-ms-grid-columns:(
+    minmax(100px, auto)
+    )[auto-fit];grid-template-columns:repeat(
+    auto-fit,
+    minmax(100px, auto)
+    )}.box{background-color:palegoldenrod}
+/*# sourceMappingURL=ex9-dist.css.map */

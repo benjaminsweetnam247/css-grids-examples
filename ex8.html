@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EX8</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    .container {
+      display: grid;
+      grid-gap: 10px;
+      height: 100vh;
+      grid-template-columns:
+        [start]
+        repeat(3,
+         [col-sm-start] minmax(20px, auto)
+         [col-sm-end col-med-start] minmax(40px, auto)
+         [col-med-end col-sm-start] minmax(20px, auto)
+         [col-sm-end col-lrg-start] minmax(80px, auto)
+         [col-lrg-end]
+        ) [end]
+      ;
+    }
+
+    .box {
+      background-color: orangered;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box a">A</div>
+    <div class="box b">B</div>
+    <div class="box c">C</div>
+    <div class="box d">D</div>
+    <div class="box e">E</div>
+    <div class="box f">F</div>
+    <div class="box g">G</div>
+    <div class="box h">H</div>
+    <div class="box i">I</div>
+    <div class="box j">J</div>
+    <div class="box k">K</div>
+    <div class="box l">L</div>
+    <div class="box m">M</div>
+    <div class="box n">N</div>
+    <div class="box o">O</div>
+    <div class="box p">P</div>
+    <div class="box q">Q</div>
+    <div class="box r">R</div>
+    <div class="box s">S</div>
+    <div class="box t">T</div>
+    <div class="box u">U</div>
+    <div class="box v">V</div>
+    <div class="box w">X</div>
+    <div class="box x">X</div>
+    <div class="box y">Y</div>
+    <div class="box z">Z</div>
+  </div>
+</body>
+</html>
